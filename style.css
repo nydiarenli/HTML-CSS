@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    
+}
+div.a{
+    text-align: center;
+}
+#curriculum{
+    font-size: 24px;
+    font-family: Georgia;
+}
+
+div.b{
+    text-align: center;
+}
+#tentang::first-letter{
+    color:rgb(83, 12, 177);
+    font-size:70px;
+}
+.kotak{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(94, 142, 163);
+    transition: 1s;
+    text-align: center;
+    line-height: 100px;
+    font-size: 35px;
+    font-family: Tahoma;
+    margin: 20px;
+    font-variant: inherit;
+}
+.container:hover .kotak{
+    transform: rotate(720deg);
+    margin-left: 1305px;
+    background-color: darkseagreen;
+}
+.centered-text {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+#data {
+    color:rgb(25, 93, 8);
+    font-style: oblique;
+}
+#tentang{
+    font-style: oblique;
+}
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+#pendidikan{
+    font-style: oblique;
+  
+}
+#tentang {
+    color: darkorchid;
+    
+}
+#Kontak {
+    color: green;
+}
+#Pengalaman {
+    color: aqua;
+}
+#Pendidikan {
+    color: brown;
+}
+
